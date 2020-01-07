@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pace Calculator</string>
+    <string name="check">Check for updates</string>
+    <string name="version">1.1</string>
+    <string name="update">Go to luigi.quattrociocchi.net if a new version is available.</string>
+    <string name="howto">How to use: Enter the two known fields and press the third button of the one you want to find the value of.</string>
+    <string name="hyperlink">http://www.coolrunning.com/engine/4/4_1/96.shtml</string>
+    <string name="calctime">TIME</string>
+    <string name="calcdistance">DISTANCE</string>
+    <string name="calcpace">PACE</string>
+    <string name="min">min</string>
+    <string name="sec">sec</string>
+    <string name="minper">min/</string>
+    <string name="secper">sec/</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string-array name="pace">
+        <item>km</item>
+        <item>400m</item>
+        <item>mi</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

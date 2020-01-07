@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btnTime"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/calctime"-->
+        <!--android:layout_toRightOf="@id/swDistance"-->
+        <!--android:layout_marginVertical="20dp"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnDistance"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/calcdistance"-->
+        <!--android:layout_toRightOf="@id/swDistance"-->
+        <!--android:layout_below="@id/btnTime"-->
+        <!--android:layout_marginVertical="14dp"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnPace"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/calcpace"-->
+        <!--android:layout_toRightOf="@id/swDistance"-->
+        <!--android:layout_below="@id/btnDistance"-->
+        <!--android:layout_marginVertical="14dp"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/timeInputM"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="@string/calctime"-->
+        <!--android:inputType="numberDecimal"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/timeInputS"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:hint="@string/calctime"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--android:layout_below="@id/timeInputM"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/distanceInput"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:hint="@string/calcdistance"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--android:layout_below="@id/timeInputS"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/paceInputM"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:hint="@string/calcpace"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--android:layout_below="@id/distanceInput"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/paceInputS"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:hint="@string/calcpace"-->
+        <!--android:inputType="numberDecimal"-->
+        <!--android:layout_below="@id/paceInputM"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:text="@string/min"-->
+    <!--android:layout_toRightOf="@id/timeInputM"-->
+    <!--android:layout_marginVertical="16dp"/>-->
+
+    <TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:text="@string/min" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="@string/sec"-->
+        <!--android:layout_toRightOf="@id/timeInputM"-->
+        <!--android:layout_below="@id/timeInputM"-->
+        <!--android:layout_marginVertical="16dp"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="@string/minper"-->
+        <!--android:layout_toRightOf="@id/timeInputM"-->
+        <!--android:layout_below="@id/distanceInput"-->
+        <!--android:layout_marginVertical="16dp"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:text="@string/secper"-->
+        <!--android:layout_toRightOf="@id/timeInputM"-->
+        <!--android:layout_below="@id/paceInputM"-->
+        <!--android:layout_marginVertical="16dp"/>-->
+
+    <!--<ToggleButton-->
+        <!--android:id="@+id/swDistance"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:checked="false"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat"-->
+        <!--android:textOff="@string/km"-->
+        <!--android:textOn="@string/mi"-->
+        <!--android:layout_toRightOf="@id/timeInputS"-->
+        <!--android:layout_below="@id/timeInputS"/>-->
+
+    <!--<Spinner-->
+        <!--android:id="@+id/swPace"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:background="@null"-->
+        <!--android:entries="@array/pace"-->
+        <!--android:layout_toRightOf="@id/textView"-->
+        <!--android:layout_below="@id/distanceInput"-->
+        <!--android:layout_marginVertical="30dp"/>-->
+
+
+
+</FrameLayout>
